@@ -10,27 +10,31 @@
 <body>
 
     <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
-    <div id="container">
+    <div id="container"> 
 
-        <!-- DIV Topo - Para o título e imagens -->
+        <!-- DIV Topo - Para o título e imagens  -->
         <div id="topoTitulo">
          <img src="img/header.png">
         </div>
 
-
-        <!-- DIV Perguntas - Para os cards de perguntas -->
+      <div class="margins">
+        <!-- DIV Perguntas - Para os cards de perguntas  -->
         <div id="meioPerguntas">
-
+         <div class="box" id="box1"> <span class="span"> pergunta 1</span> <br>Qual dessa músicas NÃO é da cantora Madonna?
+        </div>
         </div>
 
 
-        <!-- DIV Labels - Para as labels informativas de escolha -->
+         <!-- DIV Labels - Para as labels informativas de escolha  -->
         <div id="meioLabels">
+            <label for="">Resposta</label>
+            <label for="">Resposta</label>
+            <label for="">Resposta</label>
 
         </div>
 
 
-        <!-- DIV Selects - Para os menus de select com as respostas -->
+       <!-- DIV Selects - Para os menus de select com as respostas  -->
         <div id="meioSelects">
            <select name="prim_perg" id="prim_perg" >
               <option value="0">opc</option>
@@ -40,23 +44,23 @@
            </select>
 
            <select name="seg_perg" id="seg_perg" >
-            <option value="0">opc</option>
-            <option value="1">opc</option>
-            <option value="1">opc</option>
-            <option value="2">opc</option>
-         </select>
+              <option value="0">opc</option>
+              <option value="1">opc</option>
+              <option value="1">opc</option>
+              <option value="2">opc</option>
+           </select>
 
-         <select name="terc_perg" id="terc_perg" >
-            <option value="0">opc</option>
-            <option value="1">opc</option>
-            <option value="1">opc</option>
-            <option value="2">opc</option>
-         </select>
+           <select name="terc_perg" id="terc_perg" >
+              <option value="0">opc</option>
+              <option value="1">opc</option>
+              <option value="1">opc</option>
+              <option value="2">opc</option>
+           </select>
 
         </div>
+      </div>
 
-
-        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+         <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos  -->
         <div id="baixoResultado">
            <label for="resp">Sua pontuação</label>
            <input readonly>
@@ -66,7 +70,7 @@
 
     </div>
 
-    <script src="quiz.js"></script>
+    <script src="quiz.js"></script> 
 
 </body>
 </html>
